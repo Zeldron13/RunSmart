@@ -27,5 +27,11 @@
   "dependencies": {
     "browser-sync": "^2.26.13",
     "save-dev": "0.0.1-security"
-  }
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ]
 }

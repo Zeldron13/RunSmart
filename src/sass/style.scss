@@ -1,4 +1,9 @@
 @import 'base/variables';
+
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+// @import 'blocks/titles';
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
@@ -6,8 +11,4 @@
     max-width: 950px;
     margin: 0 auto;
 }
-@import 'blocks/promo';
-@import 'blocks/header.scss';
-@import 'blocks/buttons';
-@import 'blocks/advantages';
-@import 'blocks/titles';
+@import 'blocks/promo'; 
